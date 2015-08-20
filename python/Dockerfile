@@ -6,7 +6,7 @@
 # to run it:
 # 1 - tsuru-admin platform-add python -d https://raw.github.com/tsuru/basebuilder/master/python/Dockerfile
 
-from	ubuntu:14.04
+from	vipdocker-f9nub.vclound.com/vipshop/ubuntu_with_mirror:14.04
 run     locale-gen en_US.UTF-8
 env     LANG=en_US.UTF-8 LANGUAGE=en_US:en LC_ALL=en_US.UTF-8
 run	apt-get update
